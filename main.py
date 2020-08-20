@@ -2,12 +2,12 @@ def presentation():
     print("Payment Calculator")
 
 
-def payment_calculator(horas_trabalhadas, valor_medio):
-    if horas_trabalhadas <= 0 or valor_medio <= 0:
+def payment_calculator(worked_hours, value_hour):
+    if worked_hours <= 0 or value_hour <= 0:
         print("Invalid values, please type again.")
         return 0
     else:
-        return horas_trabalhadas * valor_medio
+        return worked_hours * value_hour
 
 
 presentation()
